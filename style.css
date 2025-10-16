@@ -1,0 +1,39 @@
+ body {
+    background-color: #2f2f2f;
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  ul {
+    list-style: none; 
+    background-color: #f9f9f9; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    width: 250px;
+  }
+
+  li {
+    margin: 10px 0; 
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+    
+  }
+
+  li::before {
+    content: "🌿"; 
+    margin-right: 10px;
+  }
+
+  li:hover {
+    background-color: #ec1414;
+  } 
